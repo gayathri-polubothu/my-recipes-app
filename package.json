@@ -1,0 +1,64 @@
+{
+  "name": "my-recipes-app",
+  "version": "1.0.0",
+  "description": "This is sample recipes application developed by using MERN stack",
+  "main": "client/src/index.js",
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "dotenv": "^16.1.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.2",
+    "nodemon": "^2.0.22",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.86.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "scripts": {
+    "server:start": "nodemon server/src/index.js",
+    "start:dev": "webpack-dev-server --mode development --open --hot",
+    "build:prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gayathri-polubothu/my-recipes-app.git"
+  },
+  "keywords": [
+    "my-recipes-app",
+    "react",
+    "material-ui",
+    "nodejs",
+    "express"
+  ],
+  "author": "Gayathri Polubothu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gayathri-polubothu/my-recipes-app/issues"
+  },
+  "homepage": "https://github.com/gayathri-polubothu/my-recipes-app#readme"
+}
